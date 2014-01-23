@@ -16,8 +16,7 @@ form.login
 
 input
 {
-	margin:0 0 0 0;
-	width:100%;
+	margin: 0 0 0 0;
 }
 
 H3
@@ -27,18 +26,17 @@ H3
 
 p
 {
-	margin:0 0 0 0;
+	margin: 5 0 0 0;
 }
 
 
 
 #submit
 {
-	width:30%;
 	margin-top:5;
 }
 
-a
+#a_reg
 {
-	margin-left: 110;
+	margin-left: 160;
 }
