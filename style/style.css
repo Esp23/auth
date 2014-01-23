@@ -1,0 +1,44 @@
+
+body
+{
+	background-color: #f6fff6
+}
+
+form.login
+{
+	width:	300px;
+	padding: 20px 40px 20px 40px;
+	background-color : #ddffff;
+	position:absolute;
+	top: 33%;
+	left: 40%;
+}
+
+input
+{
+	margin:0 0 0 0;
+	width:100%;
+}
+
+H3
+{
+	background-color: #ffcc66;
+}
+
+p
+{
+	margin:0 0 0 0;
+}
+
+
+
+#submit
+{
+	width:30%;
+	margin-top:5;
+}
+
+a
+{
+	margin-left: 110;
+}
