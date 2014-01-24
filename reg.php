@@ -5,11 +5,11 @@
 
 	<body>
 		<H3 align=center>Страница регистрации</H3>
-		<form>
+		<form action=RegHandler.php>
 			<p>Имя</p>
 			<input type=text/ name="name" required pattern="[a-zA-zА-Яа-я]{5,}"><br>
 			<p>Фамилия</p>
-			<input type=text/ name="surname" required pattern="[0-9a-zA-zА-Яа-я]{,}"><br>
+			<input type=text/ name="surname" required"><br>
 			<p>Год рождения</p>
 			<select  name="DOB">
 				<option value=1970>1970</option>

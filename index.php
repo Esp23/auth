@@ -1,3 +1,8 @@
+<?php
+if(isset($_COOKIE['login']) && isset($_COOKIE['passwd']))
+	header("Location:page1.php");
+?>
+
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="style/style.css" />
@@ -16,6 +21,3 @@
 	</body>
 </html>
 
-<?php
-#phpinfo();
-?>
