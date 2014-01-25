@@ -1,16 +1,18 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="style/style.css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>РЎС‚СЂР°РЅРёС†Р° СЂРµРіРёСЃС‚СЂР°С†РёРё РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ</title>
 	</head>
 
 	<body>
-		<H3 align=center>Страница регистрации</H3>
+		<H3 align=center>РЎС‚СЂР°РЅРёС†Р° СЂРµРіРёСЃС‚СЂР°С†РёРё</H3>
 		<form action=RegHandler.php>
-			<p>Имя</p>
-			<input type=text/ name="name" required pattern="[a-zA-zА-Яа-я]{5,}"><br>
-			<p>Фамилия</p>
+			<p>РРјСЏ</p>
+			<input type=text/ name="name" required pattern="[a-zA-zРђ-РЇР°-СЏ]{5,}"><br>
+			<p>Р¤Р°РјРёР»РёСЏ</p>
 			<input type=text/ name="surname" required"><br>
-			<p>Год рождения</p>
+			<p>Р“РѕРґ СЂРѕР¶РґРµРЅРёСЏ</p>
 			<select  name="DOB">
 				<option value=1970>1970</option>
 				<option value=1970>1971</option>
@@ -37,11 +39,11 @@
 			</select>
 			<p>e-mail</p>
 			<input type="text" name="email" required size=25><br>
-			<p>Логин</p>
+			<p>Р›РѕРіРёРЅ</p>
 			<input type="text" name="login" required><br>
-			<p>Пароль</p>
+			<p>РџР°СЂРѕР»СЊ</p>
 			<input type="password" name="passwd" required><br><br>
-			<input type="submit" value="Регистрация">
+			<input type="submit" value="Р РµРіРёСЃС‚СЂР°С†РёСЏ">
 		</form>
 	</body>
 </html>
